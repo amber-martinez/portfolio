@@ -34,14 +34,15 @@ body {
 
 #navRight {
   position: absolute;
-  top: 100px;
-  right: 100px;
+  top: 90px;
+  right: 90px;
+  text-align: right;
 }
 
 #navBottom {
   position: absolute;
-  bottom: 100px;
-  right: 100px;
+  bottom: 90px;
+  right: 90px;
 }
 
 #navButtons {
@@ -52,4 +53,5 @@ body {
   padding-bottom: 10px;
   font-family: 'Raleway', sans-serif;
   cursor: pointer;
+  text-decoration: none;
 }
