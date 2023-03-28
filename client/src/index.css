@@ -32,6 +32,11 @@ body {
   transform: translate(-50%, -50%);
 }
 
+h1 {
+  font-family: Courier New;
+  font-weight: 500;
+}
+
 #navRight {
   position: absolute;
   top: 90px;
@@ -54,4 +59,21 @@ body {
   font-family: 'Raleway', sans-serif;
   cursor: pointer;
   text-decoration: none;
+}
+
+#navButtons:hover {
+  color: #1f4fc0;
+}
+
+#project {
+  margin: 100px 600px 100px 100px;
+  line-height: 28px;
+}
+
+a {
+  color: #5f626a;
+}
+
+a:hover {
+  color: #1f4fc0;
 }
