@@ -1,4 +1,7 @@
 body {
+  /* cursor: url(https://i.imgur.com/xni0saD.png), auto; */
+  font-family: 'Raleway', sans-serif;
+  color: #5f626a;
   background-image: url(https://thumbs.gfycat.com/GoldenHoarseFinnishspitz-size_restricted.gif);
   /* background-image: url(https://i.imgur.com/ZVw83hI.png); */
   /* background-size: 120%;
@@ -18,7 +21,8 @@ body {
 
 .header {
   text-align: center;
-  font-family: 'Rampart One', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 25px;
   color: #1f4fc0;
   position: absolute;
@@ -26,4 +30,26 @@ body {
   top: 44%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+#navRight {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+#navBottom {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+
+#navButtons {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #5f626a;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
 }
