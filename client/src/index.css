@@ -1,21 +1,21 @@
 body {
-  /* cursor: url(https://i.imgur.com/xni0saD.png), auto; */
   font-family: 'Raleway', sans-serif;
   color: #5f626a;
-  background-image: url(https://thumbs.gfycat.com/GoldenHoarseFinnishspitz-size_restricted.gif);
+  /* background-image: url(https://thumbs.gfycat.com/GoldenHoarseFinnishspitz-size_restricted.gif); */
+  background-image: url(https://i.imgur.com/GaIR8N4.gif)
+  /* background-color: #f4f7fffd; */
   /* background-image: url(https://i.imgur.com/ZVw83hI.png); */
   /* background-size: 120%;
   background-position: 43%; */
 }
 
 .layer {
-  background-color: #f4f7fffd;
+  /* background-color: #f4f7fffd; */
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* opacity: 92% */
   opacity: 91%;
 }
 
@@ -38,14 +38,14 @@ h1 {
 }
 
 #navRight {
-  position: absolute;
+  position: fixed;
   top: 90px;
   right: 90px;
   text-align: right;
 }
 
 #navBottom {
-  position: absolute;
+  position: fixed;
   bottom: 90px;
   right: 90px;
 }
@@ -77,3 +77,15 @@ a {
 a:hover {
   color: #1f4fc0;
 }
+
+#slideImg {
+  border-radius: 50px !important;
+  width: 900px;
+  height: 476px;
+}
+
+.container {
+  padding: 0;
+  width: 900px;
+}
+
