@@ -10,7 +10,7 @@ function Nav() {
             <p>-</p>
             <button id="navButtons"><Link to="/swiftle-wordle" id="navButtons">Swiftle</Link></button><br></br>
             <button id="navButtons"><Link to="/book-it" id="navButtons">Book It</Link></button><br></br>
-            <button id="navButtons">My Booknook</button><br></br>
+            <button id="navButtons"><Link to="/my-booknook" id="navButtons">My Booknook</Link></button><br></br>
             <button id="navButtons">HarvardX CS50x</button>
         </div>
     )
