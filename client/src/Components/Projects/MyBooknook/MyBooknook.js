@@ -13,7 +13,7 @@ function MyBooknook() {
                 I created My Booknook for book lovers to find their next read through user reviews and displays of books by data. You’ll find books by genre, by highest average review rating, and by recommendations based on if the user has reviewed the book yet.  You can’t judge a book by its cover, but you can by its reviews and data.
             </p>
             <div>
-                <a target="_blank" href="https://github.com/amber-martinez/book-it">Github</a>
+                <a target="_blank" href="https://github.com/amber-martinez/my-booknook">Github</a>
             </div>
             <br></br>
             <h3>Planning</h3>
