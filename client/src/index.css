@@ -71,7 +71,8 @@ h1 {
 }
 
 a {
-  color: #5f626a;
+  color: #2c2e32;
+  text-decoration: underline;
 }
 
 a:hover {
