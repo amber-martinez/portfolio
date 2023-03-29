@@ -117,9 +117,15 @@ a:hover {
   }
 }
 
-
-
-
+#sb {
+  position: relative;
+	max-width: 34em;
+	background-color: #dee1eec7;
+	padding: 1.125em 1.5em;
+	border-radius: 1rem;
+  border: 1px #dcdee8 solid;
+  margin-bottom: 22px;
+}
 
 
 
