@@ -5,6 +5,7 @@ import Swiftle from './Components/Projects/Swiftle'
 import BookIt from './Components/Projects/BookIt/BookIt';
 import MyBooknook from './Components/Projects/MyBooknook/MyBooknook';
 import AboutMe from './Components/Core/AboutMe';
+import HarvardX from './Components/Projects/HarvardX';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/swiftle-wordle' element={<Swiftle/>}></Route>
         <Route exact path='/book-it' element={<BookIt/>}></Route>
         <Route exact path='/my-booknook' element={<MyBooknook/>}></Route>
+        <Route exact path='/harvardX' element={<HarvardX/>}></Route>
       </Routes>
     </div>
   );
