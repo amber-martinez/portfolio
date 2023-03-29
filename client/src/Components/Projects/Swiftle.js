@@ -5,7 +5,7 @@ function Swiftle() {
     return (
         <div id="project">
             <h1 style={{ lineHeight: 0 }}>Swiftle</h1>
-            <p style={{ lineHeight: 3.8, fontWeight: 1000 }}><i>React, JavaScript, HTML, CSS</i></p>
+            <p style={{ lineHeight: 3.8, fontWeight: 1000 }}><i>JavaScript, React, HTML, CSS</i></p>
             <p>
                 Swiftle is a word game inspired by The New York Times’ game Wordle. The game is currently created with HTML, CSS, Javascript, and React. Check out the Github here. Current features include:
                 <ul>

@@ -22,8 +22,7 @@ function Nav() {
                     <button id="navButtons"><img src='https://i.imgur.com/8NpxX3B.png' style={{ height: 16 }}></img></button>
                 </Link>   
                 <br></br>
-                <button id="navButtons">About Me</button>
-                <br></br>
+                <button id="navButtons"><Link to="/about-me" id="navButtons">About Me</Link></button><br></br>
                 <button id="navButtons" onClick={toggleProjects}>Work</button>
                 {showProjects ? projects : null}
             </div>
