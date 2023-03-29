@@ -4,7 +4,7 @@ import Nav from './Components/Core/Nav';
 import Swiftle from './Components/Projects/Swiftle'
 import BookIt from './Components/Projects/BookIt/BookIt';
 import MyBooknook from './Components/Projects/MyBooknook/MyBooknook';
-import AboutMe from './Components/Core/AboutMe';
+import AboutMe from './Components/Core/AboutMe/AboutMe';
 import HarvardX from './Components/Projects/HarvardX/HarvardX';
 
 function App() {

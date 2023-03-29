@@ -97,7 +97,8 @@ a:hover {
   background: transparent;
   border-radius: 50%;
   pointer-events: none;
-  box-shadow: inset 0 0 10px rgb(255, 255, 255);
+  box-shadow: inset 0 0 12px rgb(255, 255, 255);
+  border: 1px #dcdee8 solid;
   animation: animate 18s linear infinite;
   width: 60px;
   height: 60px;
@@ -119,7 +120,7 @@ a:hover {
 
 #sb {
   position: relative;
-	max-width: 34em;
+	max-width: 37.2em;
 	background-color: #dee1eec7;
 	padding: 1.125em 1.5em;
 	border-radius: 1rem;
