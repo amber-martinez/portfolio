@@ -6,12 +6,18 @@ import BookIt from './Components/Projects/BookIt/BookIt';
 import MyBooknook from './Components/Projects/MyBooknook/MyBooknook';
 import AboutMe from './Components/Core/AboutMe/AboutMe';
 import HarvardX from './Components/Projects/HarvardX/HarvardX';
+import TopNav from './Components/Core/TopNav';
 
 function App() {
 
   return (
     <div className="layer">
-      <Nav />
+      <div id="defNav">
+        <Nav/>
+      </div>
+      <div id="topNav">
+        <TopNav/>
+      </div>
       <Routes>
         <Route exact path='/' element={<Home/>}></Route>
         <Route exact path='/about-me' element={<AboutMe/>}></Route>

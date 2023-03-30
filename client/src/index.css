@@ -128,6 +128,75 @@ a:hover {
   margin-bottom: 22px;
 }
 
+#headshot {
+  height: 230px;
+  object-fit: cover;
+  border-radius: 59%;
+  border: 1px #dcdee8 solid;
+  right: 45%;
+  position: fixed;
+  opacity: 98%;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 80%;
+}
+
+#topNav {
+  visibility: hidden;
+}
+
+#navLink:hover {
+  color: #1f4fc0 !important;
+}
+
+@media (max-width: 1555px) {
+  #headshot {
+    display: none;
+  }
+  .left {
+    width: 180%;
+  }
+  .right {
+    width: 160%;
+  }
+  #defNav {
+    visibility: hidden;
+  }
+  #topNav {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 1113px) {
+  .left {
+    width: 5000%;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 759px) {
+  #headshot {
+    display: none;
+  }
+  .left {
+    width: 70vw;
+  }
+  .right {
+    display: none;
+  }
+}
+
 
 
 

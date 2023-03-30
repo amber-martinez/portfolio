@@ -8,11 +8,17 @@ function AboutMe() {
 
     return (
         <div id="project">
-            <img src="https://i.imgur.com/mIqd7it.jpg" style={{ height: 230, objectFit: 'cover', borderRadius: "59%", border: "1px #dcdee8 solid", right: "45%", position: "absolute", opacity: "98%" }}></img>
-            <Bio/>
-            <Accomplishments/>
-            <Education/>
-            <Hobbies/>
+            <div>
+                <div class="right">
+                    <img src="https://i.imgur.com/mIqd7it.jpg" id="headshot"></img>
+                </div>
+                <div class="left">
+                    <Bio/>
+                    <Accomplishments/>
+                    <Education/>
+                    <Hobbies/>
+                </div>
+            </div>
         </div>
     )
 }
