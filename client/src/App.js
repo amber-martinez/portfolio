@@ -11,7 +11,7 @@ import TopNav from './Components/Core/TopNav';
 function App() {
 
   return (
-    <div className="layer">
+    <div>
       <div id="defNav">
         <Nav/>
       </div>
