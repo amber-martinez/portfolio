@@ -72,6 +72,10 @@ h1 {
   padding-bottom: 100px;
 }
 
+/* #aboutMe {
+  margin: -25%;
+} */
+
 a {
   color: #2c2e32;
   text-decoration: underline;
@@ -216,7 +220,7 @@ a:hover {
     right: -58%;
   }
   #projectHeader {
-    line-height: 35px;
+    line-height: auto;
   }
   #projectSub {
     line-height: auto;
@@ -231,7 +235,7 @@ a:hover {
     width: 100%;
   }
   #project {
-    margin: 100px 100px 100px 100px;
+    margin: 100px 50px 100px 50px;
     line-height: 28px;
     padding-bottom: 100px;
   }
@@ -241,16 +245,28 @@ a:hover {
   #rightArrow {
     right: -30.1%;
   }
+  #projectHeader {
+    line-height: 1.2;
+  }
+  #projectSub {
+    line-height: 1.8;
+  }
 }
 
 @media (max-width: 759px) {
   #headshot {
     display: none;
   }
-  #project {
+  /* #project {
     margin: 100px 100px 100px 100px;
     line-height: 28px;
     padding-bottom: 100px;
+  } */
+  #projectHeader {
+    line-height: auto;
+  }
+  #projectSub {
+    line-height: auto;
   }
 }
 

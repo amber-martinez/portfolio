@@ -5,8 +5,8 @@ function MyBooknook() {
 
     return (
         <div id="project" style={{ paddingBottom: 200 }}>
-            <h1 style={{ lineHeight: 0 }}>My Booknook</h1>
-            <p style={{ lineHeight: 3.8, fontWeight: 1000 }}><i>JavaScript, React, Ruby on Rails, Bootstrap, PostgreSQL, Redux, HTML, CSS</i></p>
+            <h1 id="projectHeader">My Booknook</h1>
+            <p id="projectSub"><i>JavaScript, React, Ruby on Rails, Bootstrap, PostgreSQL, Redux, HTML, CSS</i></p>
             <p>
                 My Booknook is a full-stack bookmark organization application created with HTML, CSS, Javascript, React, Ruby on Rails, Bootstrap, Ant Design, PostgreSQL, and Cloudinary. It has been deployed on Render here and can be found on Github here.
                 <br></br><br></br>

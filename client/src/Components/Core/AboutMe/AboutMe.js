@@ -8,7 +8,7 @@ function AboutMe() {
 
     return (
         <div id="project">
-            <div>
+            <div id="aboutMe">
                 <div class="right">
                     <img src="https://i.imgur.com/mIqd7it.jpg" id="headshot"></img>
                 </div>
