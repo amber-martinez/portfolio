@@ -34,7 +34,7 @@ function TopNav() {
                             <a id="navLink" href="/about-me" style={{ textDecoration: 'none' }}>About Me</a>
                         </li>
                         <li class="dropdown">
-                            <a id="navLink" class="dropdown-toggle" data-toggle="dropdown" href="/swiftle-wordle" style={{ backgroundColor: 'transparent', color: "#9d9d9d", textDecoration: 'none' }}>Work<span class="caret"></span>
+                            <a id="navLink" class="dropdown-toggle" data-toggle="dropdown" href="/swiftle-wordle" style={{ backgroundColor: 'transparent', textDecoration: 'none' }}>Work<span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="/swiftle-wordle" style={{ textDecoration: 'none' }}>Swiftle</a></li>
