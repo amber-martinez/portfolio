@@ -20,7 +20,7 @@ function Swiftle() {
                 <a target="_blank" href="https://github.com/amber-martinez/swiftle">Github</a>
             </div>
             <br></br><br></br>
-            <img src='https://i.imgur.com/OijmwdC.png' style={{ height: 440, borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
+            <img src='https://i.imgur.com/OijmwdC.png' style={{ borderRadius: 50, border: "1px #dcdee8 solid", width: "82.5%"  }}></img>
         </div>
     )
 }

@@ -23,11 +23,11 @@ function MyBooknook() {
             <br></br><br></br>
             <table>
                 <tr>
-                    <td style={{ paddingRight: 100 }}>
-                        <img src='https://i.imgur.com/gUSpNdk.jpg' style={{ height: 580, borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
+                    <td  style={{ paddingRight: 100 }}>
+                        <img id="noteImgs" src='https://i.imgur.com/gUSpNdk.jpg' style={{ borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
                     </td>
                     {/* <td style={{ paddingRight: 100 }}> */}
-                        <img src='https://i.imgur.com/BKjCZkL.jpg' style={{ height: 185, borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
+                        <img id="noteImgs" src='https://i.imgur.com/BKjCZkL.jpg' style={{ borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
                     {/* </td> */}
                 </tr>
             </table>

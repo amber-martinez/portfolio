@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #5f626a;
   /* background-image: url(https://thumbs.gfycat.com/GoldenHoarseFinnishspitz-size_restricted.gif); */
-  background-image: url(https://i.imgur.com/GaIR8N4.gif)
+  background-image: url(https://i.imgur.com/GaIR8N4.gif);
   /* background-color: #f4f7fffd; */
   /* background-image: url(https://i.imgur.com/ZVw83hI.png); */
   /* background-size: 120%;
@@ -68,6 +68,8 @@ h1 {
 #project {
   margin: 100px 600px 100px 100px;
   line-height: 28px;
+  max-width: 100%;
+  padding-bottom: 100px;
 }
 
 a {
@@ -81,14 +83,32 @@ a:hover {
 
 #slideImg {
   border-radius: 50px !important;
-  width: 900px;
-  height: 476px;
   border: 1px #dcdee8 solid;
+  width: 94%;
+}
+
+.item.active {
+  width: 94%;
+  border-radius: 50px !important;
+}
+
+.carousel-item.img {
+  width: 94%;
 }
 
 .container {
   padding: 0;
-  width: 900px;
+  width: 94%;
+  /* border-radius: 50px !important; */
+}
+
+#leftArrow {
+  background: transparent;
+  left: -30%;
+}
+#rightArrow {
+  background: transparent;
+  right: -20%;
 }
 
 #bubble {
@@ -138,6 +158,11 @@ a:hover {
   opacity: 98%;
 }
 
+#noteImgs {
+  width: 95%;
+  height: auto;
+}
+
 .column {
   float: left;
 }
@@ -158,6 +183,16 @@ a:hover {
   color: #1f4fc0 !important;
 }
 
+#projectHeader {
+  line-height: 0px;
+  /* padding-bottom: 12px; */
+}
+#projectSub {
+  line-height: 3.8;
+  font-size: 15px;
+  font-weight: 1000px;
+}
+
 @media (max-width: 1555px) {
   #headshot {
     display: none;
@@ -174,14 +209,37 @@ a:hover {
   #topNav {
     visibility: visible;
   }
+  #leftArrow {
+    left: -81.1%;
+  }
+  #rightArrow {
+    right: -58%;
+  }
+  #projectHeader {
+    line-height: 35px;
+  }
+  #projectSub {
+    line-height: auto;
+  }
 }
 
 @media (max-width: 1113px) {
   .left {
-    width: 5000%;
+    width: 100%;
   }
   .right {
     width: 100%;
+  }
+  #project {
+    margin: 100px 100px 100px 100px;
+    line-height: 28px;
+    padding-bottom: 100px;
+  }
+  #leftArrow {
+    left: -42.2%;
+  }
+  #rightArrow {
+    right: -30.1%;
   }
 }
 
@@ -189,11 +247,10 @@ a:hover {
   #headshot {
     display: none;
   }
-  .left {
-    width: 70vw;
-  }
-  .right {
-    display: none;
+  #project {
+    margin: 100px 100px 100px 100px;
+    line-height: 28px;
+    padding-bottom: 100px;
   }
 }
 

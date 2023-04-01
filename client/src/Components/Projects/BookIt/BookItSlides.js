@@ -17,11 +17,11 @@ function BookItSlides() {
                 </div>
             </div>
             {/* <!--slider control for card--> */}
-            <a class="left carousel-control" href="#carousel-demo" data-slide="prev" style={{ backgroundImage: 'none' }}>
+            <a class="left carousel-control" href="#carousel-demo" data-slide="prev" id="leftArrow">
                 <span class="glyphicon glyphicon-chevron-left">
             </span>
             </a>
-            <a class="right carousel-control" href="#carousel-demo" data-slide="next" style={{ backgroundImage: 'none' }}>
+            <a class="right carousel-control" href="#carousel-demo" data-slide="next" id="rightArrow">
                 <span class="glyphicon glyphicon-chevron-right">
             </span>
             </a>
