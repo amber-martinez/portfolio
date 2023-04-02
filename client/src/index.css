@@ -3,7 +3,7 @@ body {
   color: #5f626a;
   /* background-image: url(https://thumbs.gfycat.com/GoldenHoarseFinnishspitz-size_restricted.gif); */
   background-image: url(https://i.imgur.com/GaIR8N4.gif);
-  /* background-color: #f4f7fffd; */
+  /* background-color: #8a8c92; */
   /* background-image: url(https://i.imgur.com/ZVw83hI.png); */
   /* background-size: 120%;
   background-position: 43%; */
@@ -73,12 +73,6 @@ a {
 
 a:hover {
   color: #1f4fc0;
-}
-
-#slideImg {
-  border-radius: 50px !important;
-  border: 1px #dcdee8 solid;
-  width: 94%;
 }
 
 .item.active {
