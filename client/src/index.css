@@ -169,41 +169,45 @@ a:hover {
   visibility: hidden;
   z-index: 2;
   position: relative;
+  font-size: 14px;
+}
+
+
+.nav-link:hover {
+  color: #1f4fc0 !important;
+}
+
+.navbar-brand {
+  font-size: 18px;
 }
 
 #navLink {
   color: #5f626a;
 }
 
-#navLink.dropdown-toggle {
-  color: #5f626a;
+.dropdown-item:hover {
+  background-color: #f7f7f7 !important;
 }
 
 #navLink:hover {
   color: #1f4fc0 !important;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  /* background-color: #eff1f7 !important; */
+}
+
 #projectHeader {
   line-height: 0px;
-  /* padding-bottom: 12px; */
 }
 #projectSub {
   line-height: 3.8;
   font-size: 15px;
   font-weight: 1000px;
-}
-
-.icon-bar {
-  background-color: #5f626a !important;
-}
-.navbar-inverse .navbar-toggle {
-  background-color: transparent !important;
-}
-.navbar-inverse .navbar-toggle:hover {
-  background-color: #e8eaf3 !important;
-}
-#myNavbar {
-  border-color: #5f626a7e !important;
 }
 
 @media (max-width: 1555px) {
