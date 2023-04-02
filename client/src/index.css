@@ -84,20 +84,6 @@ a:hover {
   width: 94%;
 }
 
-.container {
-  padding: 0;
-  width: 94%;
-  /* border-radius: 50px !important; */
-}
-
-#leftArrow {
-  background: transparent;
-  left: -30%;
-}
-#rightArrow {
-  background: transparent;
-  right: -20%;
-}
 
 #bubble {
   position: fixed;
@@ -226,17 +212,11 @@ a:hover {
   #topNav {
     visibility: visible;
   }
-  #leftArrow {
-    left: -81.1%;
-  }
-  #rightArrow {
-    right: -58%;
-  }
   #projectHeader {
-    line-height: auto;
+    line-height: 1.2;
   }
   #projectSub {
-    line-height: auto;
+    line-height: 1.8;
   }
 }
 
@@ -251,12 +231,6 @@ a:hover {
     margin: 100px 50px 100px 50px;
     line-height: 28px;
     padding-bottom: 100px;
-  }
-  #leftArrow {
-    left: -42.2%;
-  }
-  #rightArrow {
-    right: -30.1%;
   }
   #projectHeader {
     line-height: 1.2;
@@ -275,12 +249,6 @@ a:hover {
     line-height: 28px;
     padding-bottom: 100px;
   } */
-  #projectHeader {
-    line-height: auto;
-  }
-  #projectSub {
-    line-height: auto;
-  }
 }
 
 

@@ -4,8 +4,8 @@ import BookItSlides from "./BookItSlides";
 function BookIt() {
     return (
         <div id="project" style={{ paddingBottom: 200 }}>
-            <h1>Book It</h1>
-            <p><i>JavaScript, React, Ruby on Rails, Bootstrap, PostgreSQL, Redux, HTML, CSS</i></p>
+            <h1 id="projectHeader">Book It</h1>
+            <p id="projectSub"><i>JavaScript, React, Ruby on Rails, Bootstrap, PostgreSQL, Redux, HTML, CSS</i></p>
             <p>
                 Book It is a full-stack bookmark organization application created with HTML, CSS, Javascript, React, Ruby on Rails, Bootstrap, PostgreSQL, and Redux. It has been deployed on Render here, and can be found on Github here.
                 <br></br><br></br>
