@@ -56,7 +56,7 @@ h1 {
 }
 
 #project {
-  margin: 100px 600px 100px 100px;
+  margin: 70px 600px 100px 100px;
   line-height: 28px;
   max-width: 100%;
   padding-bottom: 100px;
@@ -228,7 +228,7 @@ a:hover {
     width: 100%;
   }
   #project {
-    margin: 100px 50px 100px 50px;
+    margin: 70px 50px 100px 50px;
     line-height: 28px;
     padding-bottom: 100px;
   }

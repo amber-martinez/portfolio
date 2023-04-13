@@ -12,6 +12,7 @@ function Nav() {
             <button id="navButtons"><Link to="/book-it" id="navButtons">Book It</Link></button><br></br>
             <button id="navButtons"><Link to="/my-booknook" id="navButtons">My Booknook</Link></button><br></br>
             <button id="navButtons"><Link to="/harvardX" id="navButtons">HarvardX CS50x</Link></button><br></br>
+            <button id="navButtons"><Link to="/episode" id="navButtons">Episode Interactive (game)</Link></button><br></br>
         </div>
     )
 

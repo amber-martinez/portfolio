@@ -1,19 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 function TopNav() {
     const [showProjects, setShowProjects] = useState(false);
-    const toggleProjects = () => setShowProjects(!showProjects)
-
-    const projects = (
-        <div>
-            <p>-</p>
-            <button id="navButtons"><Link to="/swiftle-wordle" id="navButtons">Swiftle</Link></button><br></br>
-            <button id="navButtons"><Link to="/book-it" id="navButtons">Book It</Link></button><br></br>
-            <button id="navButtons"><Link to="/my-booknook" id="navButtons">My Booknook</Link></button><br></br>
-            <button id="navButtons"><Link to="/harvardX" id="navButtons">HarvardX CS50x</Link></button><br></br>
-        </div>
-    )
 
     return (
         <nav class="navbar navbar-expand-lg bg-light" id="topNav">
@@ -39,6 +27,7 @@ function TopNav() {
                         <li><a class="dropdown-item" href="/book-it">Book It</a></li>
                         <li><a class="dropdown-item" href="/my-booknook">My Booknook</a></li>
                         <li><a class="dropdown-item" href="/harvardX">HarvardX CS50x</a></li>
+                        <li><a class="dropdown-item" href="/episode">Episode Interactive (game)</a></li>
                     </ul>
                     </li>
                 </ul>

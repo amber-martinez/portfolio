@@ -12,7 +12,7 @@ function Education() {
                     <li>Zero to Mastery – Data Structures & Algorithms</li>
                     <li>LinkedIn Learning – SQL Essential Training</li>
                     <li>(IP) HarvardX – CS50x Introduction to Computer Science</li>
-                    <li>(IP) Codecademy – Discrete Math</li>
+                    <li>(IP) LinkedIn Learning – Discrete Mathematics</li>
                     <li>(IP) Codecademy – Learn TypeScript</li>
                 </ul>
                 <h4>Degrees</h4>
