@@ -13,7 +13,7 @@ function MyBooknook() {
                 I created My Booknook for book lovers to find their next read through user reviews and displays of books by data. You’ll find books by genre, by highest average review rating, and by recommendations based on if the user has reviewed the book yet.  You can’t judge a book by its cover, but you can by its reviews and data.
             </p>
             <div>
-                <a target="_blank" href="https://github.com/amber-martinez/my-booknook">Github</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/amber-martinez/my-booknook">Github</a>
             </div>
             <br></br>
             <h3>Planning</h3>
@@ -24,11 +24,9 @@ function MyBooknook() {
             <table>
                 <tr>
                     <td  style={{ paddingRight: 100 }}>
-                        <img id="noteImgs" src='https://i.imgur.com/gUSpNdk.jpg' style={{ borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
+                        <img id="noteImgs" src='https://i.imgur.com/gUSpNdk.jpg' alt="planning for My Booknook" style={{ borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
                     </td>
-                    {/* <td style={{ paddingRight: 100 }}> */}
-                        <img id="noteImgs" src='https://i.imgur.com/BKjCZkL.jpg' style={{ borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
-                    {/* </td> */}
+                    <img id="noteImgs" src='https://i.imgur.com/BKjCZkL.jpg' alt="entity relationship diagram" style={{ borderRadius: 50, border: "1px #dcdee8 solid" }}></img>
                 </tr>
             </table>
             <br></br><br></br><br></br><br></br>

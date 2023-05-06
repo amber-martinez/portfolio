@@ -14,9 +14,9 @@ function Hobbies() {
             </ul>
             <p>
                 Check out my&#160;
-                <a target="_blank" href="https://www.instagram.com/ambthebaker/" style={{ color: "#2c2e32", textDecoration: 'underline' }}>baking</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ambthebaker/" style={{ color: "#2c2e32", textDecoration: 'underline' }}>baking</a>
                 &#160;and&#160;
-                <a target="_blank" href="https://www.instagram.com/amberpoet/" style={{ color: "#2c2e32", textDecoration: 'underline' }}>poetry</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/amberpoet/" style={{ color: "#2c2e32", textDecoration: 'underline' }}>poetry</a>
                 &#160;Instagram accounts!
             </p>
         </div>

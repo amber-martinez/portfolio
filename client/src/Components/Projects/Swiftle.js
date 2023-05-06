@@ -17,10 +17,10 @@ function Swiftle() {
                 I am creating Swiftle because first of all, I am a Taylor Swift fan. Secondly, I play Wordle every day. I find the game interesting and fun, so I’m recreating it with a twist: guess words associated with Taylor Swift!
             </p>
             <div>
-                <a target="_blank" href="https://github.com/amber-martinez/swiftle">Github</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/amber-martinez/swiftle">Github</a>
             </div>
             <br></br><br></br>
-            <img src='https://i.imgur.com/OijmwdC.png' style={{ borderRadius: 50, border: "1px #dcdee8 solid", width: "82.5%"  }}></img>
+            <img src='https://i.imgur.com/OijmwdC.png' alt="Swiftle game, answer is swift" style={{ borderRadius: 50, border: "1px #dcdee8 solid", width: "82.5%"  }}></img>
         </div>
     )
 }

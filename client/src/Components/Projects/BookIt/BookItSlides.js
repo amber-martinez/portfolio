@@ -11,25 +11,13 @@ function BookItSlides() {
             </div>
             <div class="carousel-inner" style={{ borderRadius: 50, border: "1px #dcdee8 solid" }}>
                 <div class="carousel-item active" data-bs-interval="4000">
-                <img src="https://i.imgur.com/Xfwe5m4.png" class="d-block w-100" alt="..." style={{ borderRadius: 50 }}></img>
-                {/* <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div> */}
+                <img src="https://i.imgur.com/Xfwe5m4.png" class="d-block w-100" alt="homepage of book it" style={{ borderRadius: 50 }}></img>
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
-                <img src="https://i.imgur.com/rzocRix.png" class="d-block w-100" alt="..." style={{ borderRadius: 50 }}></img>
-                {/* <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div> */}
+                <img src="https://i.imgur.com/rzocRix.png" class="d-block w-100" alt="creating a new list" style={{ borderRadius: 50 }}></img>
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
-                <img src="https://i.imgur.com/M6Aipxq.png" class="d-block w-100" alt="..." style={{ borderRadius: 50 }}></img>
-                {/* <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div> */}
+                <img src="https://i.imgur.com/M6Aipxq.png" class="d-block w-100" alt="list of all user's lists" style={{ borderRadius: 50 }}></img>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

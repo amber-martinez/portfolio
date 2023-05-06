@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 function TopNav() {
-    const [showProjects, setShowProjects] = useState(false);
 
     return (
         <nav class="navbar navbar-expand-lg bg-light" id="topNav">
@@ -19,7 +18,7 @@ function TopNav() {
                     <a class="nav-link" href="/about-me">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Work
                     </a>
                     <ul class="dropdown-menu">

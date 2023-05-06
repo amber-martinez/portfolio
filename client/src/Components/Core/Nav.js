@@ -20,7 +20,7 @@ function Nav() {
         <div>
             <div id="navRight">
                 <Link to="/" id="navButtons">
-                    <button id="navButtons"><img src='https://i.imgur.com/8NpxX3B.png' style={{ height: 16 }}></img></button>
+                    <button id="navButtons"><img src='https://i.imgur.com/8NpxX3B.png' alt="home icon" style={{ height: 16 }}></img></button>
                 </Link>   
                 <br></br>
                 <button id="navButtons"><Link to="/about-me" id="navButtons">About Me</Link></button><br></br>
@@ -28,14 +28,14 @@ function Nav() {
                 {showProjects ? projects : null}
             </div>
             <div id="navBottom">
-                <a target="_blank" href="https://github.com/amber-martinez">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/amber-martinez">
                     <button id="navButtons">
-                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" style={{ height: 27 }}></img>
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" style={{ height: 27 }}></img>
                     </button>
                 </a><br></br>
-                <a target="_blank" href="https://www.linkedin.com/in/amber-martinez-g/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/amber-martinez-g/">
                     <button id="navButtons">
-                        <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png" style={{ height: 28 }}></img>
+                        <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png" alt="LinkedIn icon" style={{ height: 28 }}></img>
                     </button>
                 </a>
             </div>
