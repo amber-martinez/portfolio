@@ -5,13 +5,28 @@ function Accomplishments() {
         <div id="sb">
             <p>
                 <h3>Accomplishments</h3>
-                <h4>Pocket Gems – Episode Interactive</h4>
+                <h5>Pocket Gems – Episode Interactive</h5>
                 <ul>
-                    <li>Coded customer-facing feature that improved monetization by 25%.</li>
-                    <li>Ideated/led 8 coded game initiatives that increased monetization.</li>
-                    <li>Created 22 course materials for teaching new users how to code.</li>
-                    <li>Debug Donacode content issues returning from QA in Jira.</li>
-                    <li>Works with engineering to create new content creation tools.</li>
+                    <li>
+                        Designed and developed a customer-facing feature that improves monetization by 25% per story.
+                    </li>
+                    <li>
+                        Ideated/led 8 coded game initiatives that increased monetization and decreased development production time by ~323 hours.
+                    </li>
+                    <li>
+                        Created 22 course materials for teaching new users how to code.
+                    </li>
+                    <li>
+                        Debug technical issues during production, during QA via Jira, and as the designated firefighter after release.
+                    </li>
+                    <li>
+                        Conduct research for and implement new development tools to support content creation for our platform’s creators.
+                    </li>
+                </ul>
+                <h5>Awards</h5>
+                <ul>
+                    <li>SkillsUSA – Promotional Bulletin Board (State Division, 1st Place)</li>
+                    <li>SkillsUSA – Advertising Design (Regional Division, 2nd Place)</li>
                 </ul>
             </p>
         </div>

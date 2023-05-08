@@ -5,7 +5,7 @@ function Education() {
         <div id="sb">
             <p>
                 <h3>Education</h3>
-                <h4>Courses</h4>
+                <h5>Courses</h5>
                 <ul>
                     <li>Flatiron School – Software Engineering certificate</li>
                     <li>Codecademy – Learn Python 3</li>
@@ -18,7 +18,7 @@ function Education() {
                     <li>Certiport – Adobe Certified Associate in Photoshop</li>
                     <li>(IP) HarvardX – CS50x Introduction to Computer Science</li>
                 </ul>
-                <h4>Degrees</h4>
+                <h5>Degrees</h5>
                 <ul>
                     <li>Florida International University – B.A. in Liberal Studies</li>
                 </ul>
