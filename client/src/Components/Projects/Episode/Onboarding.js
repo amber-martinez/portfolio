@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./Onboarding.mp4"
+import video from "./videos/Onboarding.mp4"
 
 function Onboarding() {
     return (
@@ -25,7 +25,7 @@ function Onboarding() {
                         </p>
                     </td>
                     <td>
-                        <video src={video} controls height="500px" width="autp" style={{ paddingLeft: 40 }}></video>
+                        <video src={video} controls height="500px" width="autp"></video>
                         <br></br>
                     </td>
                 </tr>
