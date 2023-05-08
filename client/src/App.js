@@ -26,7 +26,7 @@ function App() {
         <Route exact path='/book-it' element={<BookIt/>}></Route>
         <Route exact path='/my-booknook' element={<MyBooknook/>}></Route>
         <Route exact path='/harvardX' element={<HarvardX/>}></Route>
-        <Route exact path='/harvardX' element={<Episode/>}></Route>
+        <Route exact path='/episode' element={<Episode/>}></Route>
       </Routes>
     </div>
   );
