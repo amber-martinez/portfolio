@@ -9,7 +9,7 @@ function Episode() {
             <p>
                 I've worked on shipping new features on the most successful storytelling game, Episode Interactive for over 3.5 years now. My specialty is driving monetization and retention to enhance the user experience. I also created and maintain a library of code to decrease production time.
                 <br></br>
-                Keeping in mind that avatar personalization is our major driver in monetization, here are a couple of features I've developed:
+                Here are a couple of features I've developed:
             </p>
             <br></br>
             <WardrobeBuilder/>

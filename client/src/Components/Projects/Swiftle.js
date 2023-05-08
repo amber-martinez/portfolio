@@ -1,7 +1,6 @@
 import React from "react";
 
 function Swiftle() {
-
     return (
         <div id="project">
             <h1 id="projectHeader">Swiftle</h1>

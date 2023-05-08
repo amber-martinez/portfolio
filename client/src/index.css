@@ -139,6 +139,7 @@ video {
   border: 1px solid rgb(220, 222, 232);
   margin-left: 40px;
   padding-left: 0;
+  max-height: 500px;
 }
 
 #noteImgs {

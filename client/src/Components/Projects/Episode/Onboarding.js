@@ -25,7 +25,7 @@ function Onboarding() {
                         </p>
                     </td>
                     <td>
-                        <video src={video} controls height="500px" width="autp"></video>
+                        <video src={video} controls></video>
                         <br></br>
                     </td>
                 </tr>
