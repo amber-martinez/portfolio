@@ -3,7 +3,7 @@ import video from "./videos/WardrobeBuilder.mp4"
 
 function WardrobeBuilder() {
     return (
-        <div>
+        <div style={{ marginBottom: 20 }}>
             <h3>Wardrobe Builder</h3>
             <hr></hr>
             <table>

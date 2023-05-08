@@ -190,10 +190,6 @@ video {
   box-shadow: none;
 }
 
-.navbar-toggler:hover {
-  /* background-color: #eff1f7 !important; */
-}
-
 #projectHeader {
   line-height: 0px;
 }
@@ -250,6 +246,19 @@ video {
 @media (max-width: 759px) {
   #headshot {
     display: none;
+  }
+  table > tr td {
+    display: inline-block;
+    width: 100%
+  }
+  table > tr td input {
+      width: 100%
+  }
+  video {
+    border-radius: 10px;
+    margin-left: 0;
+    margin-bottom: 55px;
+    justify-content: center;
   }
   /* #project {
     margin: 100px 100px 100px 100px;

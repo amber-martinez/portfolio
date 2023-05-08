@@ -3,7 +3,7 @@ import video from "./videos/Onboarding.mp4"
 
 function Onboarding() {
     return (
-        <div>
+        <div style={{ marginBottom: 20 }}>
             <h3>Interactive Onboarding Experience</h3>
             <hr></hr>
             <table>
