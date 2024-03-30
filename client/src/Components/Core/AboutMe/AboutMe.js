@@ -10,7 +10,7 @@ function AboutMe() {
         <div id="project">
             <div id="aboutMe">
                 <div class="right">
-                    <img src="https://i.imgur.com/mIqd7it.jpg" alt="Amber's headshot" id="headshot"></img>
+                    <img src="https://i.imgur.com/0h5qxh9.jpeg" alt="Amber's headshot" id="headshot"></img>
                 </div>
                 <div class="left">
                     <Bio/>
