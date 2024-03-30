@@ -22,6 +22,7 @@ function TopNav() {
                         Work
                     </a>
                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/spotify-me">Spotify Me</a></li>
                         <li><a class="dropdown-item" href="/swiftle-wordle">Swiftle</a></li>
                         <li><a class="dropdown-item" href="/book-it">Book It</a></li>
                         <li><a class="dropdown-item" href="/my-booknook">My Booknook</a></li>

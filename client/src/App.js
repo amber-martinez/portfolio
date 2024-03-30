@@ -8,6 +8,7 @@ import AboutMe from './Components/Core/AboutMe/AboutMe';
 import HarvardX from './Components/Projects/HarvardX/HarvardX';
 import TopNav from './Components/Core/TopNav';
 import Episode from './Components/Projects/Episode/Episode';
+import SpotifyMe from './Components/Projects/SpotifyMe';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home/>}></Route>
         <Route exact path='/about-me' element={<AboutMe/>}></Route>
+        <Route exact path='/spotify-me' element={<SpotifyMe/>}></Route>
         <Route exact path='/swiftle-wordle' element={<Swiftle/>}></Route>
         <Route exact path='/book-it' element={<BookIt/>}></Route>
         <Route exact path='/my-booknook' element={<MyBooknook/>}></Route>
